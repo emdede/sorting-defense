@@ -1,0 +1,28 @@
+All graphical assets used that are not made by myself are to my best knowledge part of the public domain (CC-0)
+
+I'd like to give a shoutout to the original sources, though, anyway
+
+Main game background:
+https://www.pexels.com/photo/scenic-view-of-mountain-during-evening-2085998/
+
+City in game fore/background
+https://pixabay.com/illustrations/city-futuristic-sci-fi-colorful-3617340/
+
+The icon for the freeze ability
+https://pixabay.com/illustrations/bow-snowflake-snow-ice-winter-1831698/
+
+The "cannon" textures aka space ships
+https://opengameart.org/content/2d-ships-for-a-space-strategy-game
+
+The professor's head
+https://pixabay.com/vectors/head-gates-charles-man-portrait-40103/
+
+The main menu background
+https://gamedevelopment.tutsplus.com/articles/enjoy-these-totally-free-space-based-shoot-em-up-sprites--gamedev-2368
+
+The font used is Pixellari
+https://www.dafont.com/pixellari.font
+
+All the music was created by me
+Martnart
+https://mystuffcanbefoundabsolutelynowhere.com

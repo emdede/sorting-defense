@@ -1,13 +1,5 @@
 Popup = Class{}
 
-local button_template = {
-    { type = 'Close', x1 = 882, x2 = 982, y1 = 594, y2 = 652}, -- Close button
-    { type = 'Docs', x1 = 282, x2 = 382, y1 = 594, y2 = 652}, -- Enemy entry - 'landing page'
-    { type = 'Def', x1 = 402, x2 = 502, y1 = 594, y2 = 652}, -- Further information about terms
-    { type = 'LS', x1 = 522, x2 = 622, y1 = 594, y2 = 652}, -- Linear Search
-    { type = 'BS', x1 = 642, x2 = 742, y1 = 594, y2 = 652}, -- Binary Search and Bubble Sort
-    { type = 'BST', x1 = 762, x2 = 862, y1 = 594, y2 = 652} -- BST Sort and Search
-}
 local files = { Settings = 'algos/settings.png', Docs = 'algos/enemy.png', Def = 'algos/def.png', LS = 'algos/ls.png', Lock = 'algos/locked.png', Binary = 'algos/binary.png', Bubble = 'algos/bubble.png', BS = 'algos/bs.png' }
 local hotspots = {
     LS = {
@@ -60,7 +52,14 @@ function Popup:init(type)
             { type = 'exit', x1 = self.x + self.width / 2 - 80, x2 = self.x + self.width / 2 + 80, y1 = 500, y2 = 540 }
         }
     else
-        self.buttons = button_template
+        self.buttons = {
+            { type = 'Close', x1 = 882, x2 = 982, y1 = 594, y2 = 652}, -- Close button
+            { type = 'Docs', x1 = 282, x2 = 382, y1 = 594, y2 = 652}, -- Enemy entry - 'landing page'
+            { type = 'Def', x1 = 402, x2 = 502, y1 = 594, y2 = 652}, -- Further information about terms
+            { type = 'LS', x1 = 522, x2 = 622, y1 = 594, y2 = 652}, -- Linear Search
+            { type = 'BS', x1 = 642, x2 = 742, y1 = 594, y2 = 652}, -- Binary Search and Bubble Sort
+            { type = 'BST', x1 = 762, x2 = 862, y1 = 594, y2 = 652} -- BST Sort and Search
+        }
         self.animation_clock = 0
         self:load_values()
         self.lockbtn = love.graphics.newImage(files['Lock'])

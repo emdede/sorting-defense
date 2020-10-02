@@ -14,3 +14,8 @@ Update: I added a macOS version which can be found in the macOS folder. Full dis
 
 Enjoy the game. And who knows, maybe you'll end up learning something while you're at it ;)
 Martnart
+
+
+UPDATE:
+I discovered a bug that was breaking the Documentation feature.
+I fixed it and replaced the old file. It was a small change in Popup.lua.
